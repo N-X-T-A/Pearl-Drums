@@ -326,7 +326,7 @@ span#btn-next {
 /* ----mobile navigation icon----- */
 .mobile-nav-icon {
     font-size: 200%;
-    color: white;
+    color: gray;
     position: absolute;
     top: 55px;
     right: 40px;

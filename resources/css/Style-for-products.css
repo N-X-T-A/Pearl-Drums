@@ -110,7 +110,7 @@ section {
 /* ------------------HEADER------------------ */
 /* ------------------------------------------------ */
 #drumsets {
-    background-image: linear-gradient(45deg, rgba(185, 40, 40, 0.7) 55%, rgba(0, 0, 0, 0.85)), url(/resources/img/3840x1080\ Drumset\ Product\ Series\ Banner\ Image.jpg);
+    background-image: linear-gradient(45deg, rgba(185, 40, 40, 0.7) 55%, rgba(0, 0, 0, 0.85)), url(../img/3840x1080\ Drumset\ Product\ Series\ Banner\ Image.jpg);
     background-size: cover;
     height: 100vh;
     background-position: center;
@@ -118,7 +118,7 @@ section {
 }
 
 #electronic {
-    background-image: linear-gradient(45deg, rgba(185, 40, 40, 0.7) 55%, rgba(0, 0, 0, 0.85)), url(/resources/img/ELECTRONICS/EM53HB_EMERGE_IMG_4thumbnail_EMERGE.jpg);
+    background-image: linear-gradient(45deg, rgba(185, 40, 40, 0.7) 55%, rgba(0, 0, 0, 0.85)), url(../img/ELECTRONICS/EM53HB_EMERGE_IMG_4thumbnail_EMERGE.jpg);
     background-size: cover;
     height: 100vh;
     background-position: center;
@@ -126,7 +126,7 @@ section {
 }
 
 #snares {
-    background-image: url(/resources/img/Snare/4thumbnail_header_SNAR_1.jpg);
+    background-image: url(../img/Snare/4thumbnail_header_SNAR_1.jpg);
     background-size: cover;
     height: 85vh;
     background-position: center;
@@ -134,7 +134,7 @@ section {
 }
 
 #hardware{
-    background-image: linear-gradient(45deg, rgba(185, 40, 40, 0.7) 55%, rgba(0, 0, 0, 0.85)), url(/resources/img/hardware/4thumbnail_header_HARDWARE.jpg);
+    background-image: linear-gradient(45deg, rgba(185, 40, 40, 0.7) 55%, rgba(0, 0, 0, 0.85)), url(../img/hardware/4thumbnail_header_HARDWARE.jpg);
     background-size: cover;
     height: 100vh;
     background-position: center;
@@ -142,7 +142,7 @@ section {
 }
 
 #pendals{
-    background-image: linear-gradient(45deg, rgba(185, 40, 40, 0.7) 55%, rgba(0, 0, 0, 0.85)), url(/resources/img/pedals/3840x1080\ Bass\ Drum\ Pedals\ 2.jpg);
+    background-image: linear-gradient(45deg, rgba(185, 40, 40, 0.7) 55%, rgba(0, 0, 0, 0.85)), url(../img/pedals/3840x1080\ Bass\ Drum\ Pedals\ 2.jpg);
     background-size: cover;
     height: 100vh;
     background-position: center;
@@ -150,12 +150,20 @@ section {
 }
 
 #Options_Accessories{
-    background-image: url(/resources/img/option/4thumbnail_header_OPTION&ACCESSORIES.jpg);
+    background-image: url(../img/option/4thumbnail_header_OPTION&ACCESSORIES.jpg);
     background-size: cover;
     height: 100vh;
     background-position: center;
     z-index: 1;
 }
+
+#sqare-parts{
+    background-image: url(../img/spareparts_IMG_header_thumbnail.jpg);
+    height: 25vh;
+    background-position: center;
+    z-index: 1;
+}
+
 
 
 .logo {
@@ -208,6 +216,14 @@ section {
     padding-right: 115px;
 }
 
+.title-heading-aboutpearl,
+.title-heading-sqare-parts{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-right: 115px;
+    margin-bottom: 568px;
+}
 
 
 /* ------sticky----- */
@@ -308,3 +324,21 @@ footer {
 }
 
 
+/* ------------------------------------- */
+/* ---------ABOUT PEARL------------------- */
+/* ---------------------------------- */
+.p-aboutpearl{
+    padding-top: 10px;
+    float: left;
+    width: 64%;
+    text-align: justify;
+}
+.img-aboutpearl{
+    padding-top: 10px;
+    float: right;
+    width: 35%;
+}
+
+.space {
+    margin-bottom: 50px;
+}
